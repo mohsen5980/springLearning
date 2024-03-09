@@ -37,7 +37,7 @@ public class HelloController {
         } catch (Exception e) {
             return "invalid number";
         }
-        int divNumber = op1Number / op2Number;
+        float divNumber = (float) op1Number / op2Number;
         return op1 + " / " + op2 + " = " + divNumber;
     }
 
